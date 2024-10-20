@@ -1,0 +1,19 @@
+#root{
+    background-color: black;
+}
+
+.mainContainer{
+    padding: 0 100px;
+}
+
+@media (max-width: 1024px) and (min-width: 760px) {
+    .mainContainer{
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 760px) {
+    .mainContainer{
+        padding: 0 40px;
+    }
+}
