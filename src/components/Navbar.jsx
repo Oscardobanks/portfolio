@@ -33,7 +33,6 @@ function Navbar() {
 
   return (
     <div
-      id="home"
       className={`mainContainer fixed top-0 right-0 left-0 z-10 transition-all duration-500 ease-in-out ${
         fixed
           ? "bg-white text-black shadow-md"

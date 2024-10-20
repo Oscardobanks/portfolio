@@ -4,6 +4,7 @@ import heroBg from "/assets/images/hero bg.png";
 const Hero = () => {
   return (
     <div
+      id="home"
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundSize: "cover",
