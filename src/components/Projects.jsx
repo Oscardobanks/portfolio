@@ -1,4 +1,4 @@
-import { FaLink } from "react-icons/fa";
+import { FaGithub, FaLink } from "react-icons/fa";
 import { projects } from "../data/Projects";
 import { useState } from "react";
 
@@ -45,12 +45,20 @@ const Projects = () => {
                   </a>
                 ))}
               </div>
-              <a href={project.link} target="_blank" className="lg:mt-0 mt-5">
-                <button className="flex items-center justify-center gap-3 border border-white rounded-full px-4 py-2 transform transition-transform duration-300 hover:scale-105">
-                  <FaLink />
-                  Go to {project.title}
-                </button>
-              </a>
+              <div className="flex gap-4">
+                <a href={project.link} target="_blank" className="lg:mt-0 mt-5">
+                  <button className="flex items-center justify-center gap-3 border border-white rounded-full px-4 py-2 transform transition-transform duration-300 hover:scale-105">
+                    <FaLink />
+                    Go to {project.title}
+                  </button>
+                </a>
+                <a href={project.github} target="_blank" className="lg:mt-0 mt-5">
+                  <button className="flex items-center justify-center gap-3 border border-white rounded-full px-4 py-2 transform transition-transform duration-300 hover:scale-105">
+                    <FaGithub />
+                    Go to Github
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         ))}

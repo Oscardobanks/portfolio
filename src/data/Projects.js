@@ -18,6 +18,7 @@ export const projects = [
       "The primary aim of Kodecamp X is to empower individuals to learn at their own pace, making high-quality tech education more accessible and personalized through Kodecamp by offering schedulable self-paced courses that can span weeks or even months.",
     image: kodecampx,
     link: "https://x-project-fe-nine.vercel.app/",
+    github: "https://github.com/Oscardobanks/x-project-fe.git",
     technologies: [
       {
         id: 0,
@@ -58,6 +59,7 @@ export const projects = [
       "This e-commerce website, offers a user-friendly shopping experience with Firebase authentication.  The dashboard displays static product items, allowing users to seamlessly add and remove items from both their shopping cart and wishlist.",
     image: exclusive,
     link: "https://react-ecommerce-sage.vercel.app/",
+    github: "https://github.com/Oscardobanks/React-Ecommerce",
     technologies: [
       {
         id: 0,
@@ -92,6 +94,7 @@ export const projects = [
       "This project is a server-side rendered (SSR) Next.js application. Users can create, read, update, and delete (CRUD) to-do items. Each to-do can be marked as complete. The application provides a clean and responsive user interface for managing a personal to-do list.",
     image: todolist,
     link: "https://ssr-nextjs-todolist.vercel.app/",
+    github: "https://github.com/Oscardobanks/ssr-nextjs-todolist",
     technologies: [
       {
         id: 0,
@@ -120,6 +123,7 @@ export const projects = [
       "This project is a single-page React application featuring a static homepage and utilizes React Router for navigation through the different pages. The project prioritizes a simple, yet effective, presentation of information.",
     image: digitalProjects,
     link: "https://architect-website-kx7brqn10-taku-precious-tokes-projects.vercel.app/",
+    github: "https://github.com/Oscardobanks/architect-website",
     technologies: [
       {
         id: 0,
@@ -148,6 +152,7 @@ export const projects = [
       "This multi-step registration application uses React.js for the front-end and Firebase for secure user authentication. It features a static dashboard accessible after successful registration. The registration process guides users through multiple steps to complete their profile.",
     image: multistepSignup,
     link: "https://user-authentication-dashboard.vercel.app/",
+    github: "https://github.com/Oscardobanks/user-authentication-dashboard",
     technologies: [
       {
         id: 0,
