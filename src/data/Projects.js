@@ -147,7 +147,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Multi Step Resgistration",
+    title: "Multi Step Registration",
     description:
       "This multi-step registration application uses React.js for the front-end and Firebase for secure user authentication. It features a static dashboard accessible after successful registration. The registration process guides users through multiple steps to complete their profile.",
     image: multistepSignup,
